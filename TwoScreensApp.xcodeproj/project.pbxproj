@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B174BB5D1E943B1000280C6D /* KHParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB5C1E943B1000280C6D /* KHParentViewController.m */; };
+		B174BB611E94483300280C6D /* KHMarvelParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB601E94483300280C6D /* KHMarvelParser.m */; };
+		B174BB651E944F3200280C6D /* KHParentParser.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB641E944F3200280C6D /* KHParentParser.m */; };
+		B174BB691E94AF1600280C6D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB671E94AF1600280C6D /* main.m */; };
+		B174BB6C1E94B08900280C6D /* KHMeta.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB6B1E94B08900280C6D /* KHMeta.m */; };
+		B174BB6F1E94D9A800280C6D /* KHCharacter+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB6E1E94D9A800280C6D /* KHCharacter+JSON.m */; };
+		B174BB721E94E40600280C6D /* KHCommonListTableViewCell+Marvel.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB711E94E40600280C6D /* KHCommonListTableViewCell+Marvel.m */; };
+		B174BB751E94E5E200280C6D /* KHImageService.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB741E94E5E200280C6D /* KHImageService.m */; };
+		B174BB781E94E6CD00280C6D /* KHTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB771E94E6CD00280C6D /* KHTransport.m */; };
+		B174BB7C1E94FCF100280C6D /* KHCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB7B1E94FCF100280C6D /* KHCharacterViewController.m */; };
+		B174BB801E95090F00280C6D /* KHCharacterCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB7F1E95090F00280C6D /* KHCharacterCollectionViewCell.m */; };
+		B174BB831E95099500280C6D /* KHCharacterCollectionViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB821E95099500280C6D /* KHCharacterCollectionViewDataSource.m */; };
+		B174BB861E950B9B00280C6D /* KHCharactersTextCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB851E950B9B00280C6D /* KHCharactersTextCollectionViewCell.m */; };
+		B174BB8C1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB8B1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.m */; };
+		B174BB8F1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.m in Sources */ = {isa = PBXBuildFile; fileRef = B174BB8E1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.m */; };
+		B1CF0F4A1E8D6DCB00122D79 /* KHCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F491E8D6DCB00122D79 /* KHCommonListViewController.m */; };
+		B1CF0F4F1E8D70C800122D79 /* KHCommonListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F4E1E8D70C800122D79 /* KHCommonListTableViewCell.m */; };
+		B1CF0F521E8D74D900122D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CF0F511E8D74D900122D79 /* Assets.xcassets */; };
+		B1CF0F581E8D752F00122D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CF0F541E8D752F00122D79 /* LaunchScreen.storyboard */; };
+		B1CF0F591E8D752F00122D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CF0F561E8D752F00122D79 /* Main.storyboard */; };
+		B1CF0F5C1E8D755D00122D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F5B1E8D755D00122D79 /* AppDelegate.m */; };
+		B1CF0F661E8D811500122D79 /* KHDataService.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F651E8D811500122D79 /* KHDataService.m */; };
+		B1CF0F6A1E8D87B400122D79 /* KHMarvelTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F691E8D87B300122D79 /* KHMarvelTransport.m */; };
+		B1CF0F6D1E8E0C3800122D79 /* KHCommonListTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F6C1E8E0C3800122D79 /* KHCommonListTableViewDataSource.m */; };
+		B1CF0F711E8E0F3E00122D79 /* KHCharacter.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F701E8E0F3E00122D79 /* KHCharacter.m */; };
+		B1CF0F771E8E14B300122D79 /* KHDataConfigurator.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F761E8E14B300122D79 /* KHDataConfigurator.m */; };
+		B1CF0F7C1E8E23EC00122D79 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CF0F7B1E8E23EC00122D79 /* NSString+MD5.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B174BB5B1E943B1000280C6D /* KHParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHParentViewController.h; sourceTree = "<group>"; };
+		B174BB5C1E943B1000280C6D /* KHParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHParentViewController.m; sourceTree = "<group>"; };
+		B174BB5F1E94483300280C6D /* KHMarvelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHMarvelParser.h; sourceTree = "<group>"; };
+		B174BB601E94483300280C6D /* KHMarvelParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHMarvelParser.m; sourceTree = "<group>"; };
+		B174BB621E944AA400280C6D /* KHMarvelJSONKeys.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHMarvelJSONKeys.h; sourceTree = "<group>"; };
+		B174BB631E944F3200280C6D /* KHParentParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHParentParser.h; sourceTree = "<group>"; };
+		B174BB641E944F3200280C6D /* KHParentParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHParentParser.m; sourceTree = "<group>"; };
+		B174BB661E94AF1600280C6D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = TwoScreensApp/SupportingFiles/Info.plist; sourceTree = SOURCE_ROOT; };
+		B174BB671E94AF1600280C6D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = TwoScreensApp/SupportingFiles/main.m; sourceTree = SOURCE_ROOT; };
+		B174BB6A1E94B08900280C6D /* KHMeta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHMeta.h; sourceTree = "<group>"; };
+		B174BB6B1E94B08900280C6D /* KHMeta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHMeta.m; sourceTree = "<group>"; };
+		B174BB6D1E94D9A800280C6D /* KHCharacter+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KHCharacter+JSON.h"; sourceTree = "<group>"; };
+		B174BB6E1E94D9A800280C6D /* KHCharacter+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KHCharacter+JSON.m"; sourceTree = "<group>"; };
+		B174BB701E94E40600280C6D /* KHCommonListTableViewCell+Marvel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KHCommonListTableViewCell+Marvel.h"; sourceTree = "<group>"; };
+		B174BB711E94E40600280C6D /* KHCommonListTableViewCell+Marvel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KHCommonListTableViewCell+Marvel.m"; sourceTree = "<group>"; };
+		B174BB731E94E5E200280C6D /* KHImageService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHImageService.h; sourceTree = "<group>"; };
+		B174BB741E94E5E200280C6D /* KHImageService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHImageService.m; sourceTree = "<group>"; };
+		B174BB761E94E6CD00280C6D /* KHTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHTransport.h; sourceTree = "<group>"; };
+		B174BB771E94E6CD00280C6D /* KHTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHTransport.m; sourceTree = "<group>"; };
+		B174BB7A1E94FCF100280C6D /* KHCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCharacterViewController.h; sourceTree = "<group>"; };
+		B174BB7B1E94FCF100280C6D /* KHCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCharacterViewController.m; sourceTree = "<group>"; };
+		B174BB7E1E95090F00280C6D /* KHCharacterCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCharacterCollectionViewCell.h; sourceTree = "<group>"; };
+		B174BB7F1E95090F00280C6D /* KHCharacterCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCharacterCollectionViewCell.m; sourceTree = "<group>"; };
+		B174BB811E95099500280C6D /* KHCharacterCollectionViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCharacterCollectionViewDataSource.h; sourceTree = "<group>"; };
+		B174BB821E95099500280C6D /* KHCharacterCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCharacterCollectionViewDataSource.m; sourceTree = "<group>"; };
+		B174BB841E950B9B00280C6D /* KHCharactersTextCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCharactersTextCollectionViewCell.h; sourceTree = "<group>"; };
+		B174BB851E950B9B00280C6D /* KHCharactersTextCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCharactersTextCollectionViewCell.m; sourceTree = "<group>"; };
+		B174BB881E950FB200280C6D /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = ../SupportingFiles/Defines.h; sourceTree = "<group>"; };
+		B174BB891E950FF000280C6D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = TwoScreensApp/SupportingFiles/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
+		B174BB8A1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KHCharactersTextCollectionViewCell+Character.h"; sourceTree = "<group>"; };
+		B174BB8B1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KHCharactersTextCollectionViewCell+Character.m"; sourceTree = "<group>"; };
+		B174BB8D1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KHCharacterCollectionViewCell+Character.h"; sourceTree = "<group>"; };
+		B174BB8E1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KHCharacterCollectionViewCell+Character.m"; sourceTree = "<group>"; };
+		B1CF0F2B1E8D639300122D79 /* TwoScreensApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoScreensApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1CF0F481E8D6DCB00122D79 /* KHCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCommonListViewController.h; sourceTree = "<group>"; };
+		B1CF0F491E8D6DCB00122D79 /* KHCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCommonListViewController.m; sourceTree = "<group>"; };
+		B1CF0F4D1E8D70C800122D79 /* KHCommonListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCommonListTableViewCell.h; sourceTree = "<group>"; };
+		B1CF0F4E1E8D70C800122D79 /* KHCommonListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCommonListTableViewCell.m; sourceTree = "<group>"; };
+		B1CF0F511E8D74D900122D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1CF0F551E8D752F00122D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1CF0F571E8D752F00122D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1CF0F5A1E8D755D00122D79 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B1CF0F5B1E8D755D00122D79 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B1CF0F641E8D811500122D79 /* KHDataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHDataService.h; sourceTree = "<group>"; };
+		B1CF0F651E8D811500122D79 /* KHDataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHDataService.m; sourceTree = "<group>"; };
+		B1CF0F681E8D87B300122D79 /* KHMarvelTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHMarvelTransport.h; sourceTree = "<group>"; };
+		B1CF0F691E8D87B300122D79 /* KHMarvelTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHMarvelTransport.m; sourceTree = "<group>"; };
+		B1CF0F6B1E8E0C3800122D79 /* KHCommonListTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCommonListTableViewDataSource.h; sourceTree = "<group>"; };
+		B1CF0F6C1E8E0C3800122D79 /* KHCommonListTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCommonListTableViewDataSource.m; sourceTree = "<group>"; };
+		B1CF0F6F1E8E0F3E00122D79 /* KHCharacter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCharacter.h; sourceTree = "<group>"; };
+		B1CF0F701E8E0F3E00122D79 /* KHCharacter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCharacter.m; sourceTree = "<group>"; };
+		B1CF0F751E8E14B300122D79 /* KHDataConfigurator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHDataConfigurator.h; sourceTree = "<group>"; };
+		B1CF0F761E8E14B300122D79 /* KHDataConfigurator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHDataConfigurator.m; sourceTree = "<group>"; };
+		B1CF0F7A1E8E23EC00122D79 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		B1CF0F7B1E8E23EC00122D79 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1CF0F281E8D639300122D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B174BB5A1E943AEC00280C6D /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB5B1E943B1000280C6D /* KHParentViewController.h */,
+				B174BB5C1E943B1000280C6D /* KHParentViewController.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B174BB5E1E9447FD00280C6D /* Parsers */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB631E944F3200280C6D /* KHParentParser.h */,
+				B174BB641E944F3200280C6D /* KHParentParser.m */,
+				B174BB5F1E94483300280C6D /* KHMarvelParser.h */,
+				B174BB601E94483300280C6D /* KHMarvelParser.m */,
+			);
+			path = Parsers;
+			sourceTree = "<group>";
+		};
+		B174BB791E94FCD600280C6D /* CharacterScreen */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB7D1E9508F400280C6D /* Cells */,
+				B174BB7A1E94FCF100280C6D /* KHCharacterViewController.h */,
+				B174BB7B1E94FCF100280C6D /* KHCharacterViewController.m */,
+				B174BB811E95099500280C6D /* KHCharacterCollectionViewDataSource.h */,
+				B174BB821E95099500280C6D /* KHCharacterCollectionViewDataSource.m */,
+			);
+			path = CharacterScreen;
+			sourceTree = "<group>";
+		};
+		B174BB7D1E9508F400280C6D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB7E1E95090F00280C6D /* KHCharacterCollectionViewCell.h */,
+				B174BB7F1E95090F00280C6D /* KHCharacterCollectionViewCell.m */,
+				B174BB8D1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.h */,
+				B174BB8E1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.m */,
+				B174BB841E950B9B00280C6D /* KHCharactersTextCollectionViewCell.h */,
+				B174BB851E950B9B00280C6D /* KHCharactersTextCollectionViewCell.m */,
+				B174BB8A1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.h */,
+				B174BB8B1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B1CF0F221E8D639300122D79 = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F2D1E8D639300122D79 /* TwoScreensApp */,
+				B1CF0F2C1E8D639300122D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1CF0F2C1E8D639300122D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F2B1E8D639300122D79 /* TwoScreensApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1CF0F2D1E8D639300122D79 /* TwoScreensApp */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F5D1E8D759400122D79 /* Supporting Files */,
+				B1CF0F531E8D74FB00122D79 /* Storyboards */,
+				B1CF0F501E8D74C700122D79 /* Resources */,
+				B1CF0F451E8D6CDC00122D79 /* Classes */,
+			);
+			path = TwoScreensApp;
+			sourceTree = "<group>";
+		};
+		B1CF0F451E8D6CDC00122D79 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F5A1E8D755D00122D79 /* AppDelegate.h */,
+				B1CF0F5B1E8D755D00122D79 /* AppDelegate.m */,
+				B1CF0F781E8E23CF00122D79 /* Categories */,
+				B1CF0F671E8D812D00122D79 /* Transport Layer */,
+				B1CF0F621E8D75E300122D79 /* Bussiness Logic */,
+				B1CF0F461E8D6D1900122D79 /* Views Layer */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		B1CF0F461E8D6D1900122D79 /* Views Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB5A1E943AEC00280C6D /* Common */,
+				B1CF0F471E8D6DB000122D79 /* List Screen */,
+				B174BB791E94FCD600280C6D /* CharacterScreen */,
+			);
+			path = "Views Layer";
+			sourceTree = "<group>";
+		};
+		B1CF0F471E8D6DB000122D79 /* List Screen */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F4C1E8D70A200122D79 /* Cells */,
+				B1CF0F481E8D6DCB00122D79 /* KHCommonListViewController.h */,
+				B1CF0F491E8D6DCB00122D79 /* KHCommonListViewController.m */,
+				B1CF0F6B1E8E0C3800122D79 /* KHCommonListTableViewDataSource.h */,
+				B1CF0F6C1E8E0C3800122D79 /* KHCommonListTableViewDataSource.m */,
+			);
+			path = "List Screen";
+			sourceTree = "<group>";
+		};
+		B1CF0F4C1E8D70A200122D79 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB701E94E40600280C6D /* KHCommonListTableViewCell+Marvel.h */,
+				B174BB711E94E40600280C6D /* KHCommonListTableViewCell+Marvel.m */,
+				B1CF0F4D1E8D70C800122D79 /* KHCommonListTableViewCell.h */,
+				B1CF0F4E1E8D70C800122D79 /* KHCommonListTableViewCell.m */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B1CF0F501E8D74C700122D79 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F511E8D74D900122D79 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B1CF0F531E8D74FB00122D79 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F541E8D752F00122D79 /* LaunchScreen.storyboard */,
+				B1CF0F561E8D752F00122D79 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B1CF0F5D1E8D759400122D79 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB881E950FB200280C6D /* Defines.h */,
+				B174BB661E94AF1600280C6D /* Info.plist */,
+				B174BB671E94AF1600280C6D /* main.m */,
+				B174BB891E950FF000280C6D /* PrefixHeader.pch */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B1CF0F621E8D75E300122D79 /* Bussiness Logic */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F741E8E149C00122D79 /* Configurator */,
+				B1CF0F6E1E8E0F2700122D79 /* Model */,
+				B1CF0F631E8D80FB00122D79 /* Services */,
+			);
+			path = "Bussiness Logic";
+			sourceTree = "<group>";
+		};
+		B1CF0F631E8D80FB00122D79 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F641E8D811500122D79 /* KHDataService.h */,
+				B1CF0F651E8D811500122D79 /* KHDataService.m */,
+				B174BB731E94E5E200280C6D /* KHImageService.h */,
+				B174BB741E94E5E200280C6D /* KHImageService.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		B1CF0F671E8D812D00122D79 /* Transport Layer */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB621E944AA400280C6D /* KHMarvelJSONKeys.h */,
+				B174BB5E1E9447FD00280C6D /* Parsers */,
+				B1CF0F681E8D87B300122D79 /* KHMarvelTransport.h */,
+				B1CF0F691E8D87B300122D79 /* KHMarvelTransport.m */,
+				B174BB761E94E6CD00280C6D /* KHTransport.h */,
+				B174BB771E94E6CD00280C6D /* KHTransport.m */,
+			);
+			path = "Transport Layer";
+			sourceTree = "<group>";
+		};
+		B1CF0F6E1E8E0F2700122D79 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B174BB6D1E94D9A800280C6D /* KHCharacter+JSON.h */,
+				B174BB6E1E94D9A800280C6D /* KHCharacter+JSON.m */,
+				B1CF0F6F1E8E0F3E00122D79 /* KHCharacter.h */,
+				B1CF0F701E8E0F3E00122D79 /* KHCharacter.m */,
+				B174BB6A1E94B08900280C6D /* KHMeta.h */,
+				B174BB6B1E94B08900280C6D /* KHMeta.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B1CF0F741E8E149C00122D79 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F751E8E14B300122D79 /* KHDataConfigurator.h */,
+				B1CF0F761E8E14B300122D79 /* KHDataConfigurator.m */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		B1CF0F781E8E23CF00122D79 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F791E8E23D900122D79 /* NSString */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		B1CF0F791E8E23D900122D79 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				B1CF0F7A1E8E23EC00122D79 /* NSString+MD5.h */,
+				B1CF0F7B1E8E23EC00122D79 /* NSString+MD5.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1CF0F2A1E8D639300122D79 /* TwoScreensApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1CF0F421E8D639300122D79 /* Build configuration list for PBXNativeTarget "TwoScreensApp" */;
+			buildPhases = (
+				B1CF0F271E8D639300122D79 /* Sources */,
+				B1CF0F281E8D639300122D79 /* Frameworks */,
+				B1CF0F291E8D639300122D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwoScreensApp;
+			productName = TwoScreensApp;
+			productReference = B1CF0F2B1E8D639300122D79 /* TwoScreensApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1CF0F231E8D639300122D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Kharitonov;
+				TargetAttributes = {
+					B1CF0F2A1E8D639300122D79 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = QA532HWZAE;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B1CF0F261E8D639300122D79 /* Build configuration list for PBXProject "TwoScreensApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1CF0F221E8D639300122D79;
+			productRefGroup = B1CF0F2C1E8D639300122D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1CF0F2A1E8D639300122D79 /* TwoScreensApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1CF0F291E8D639300122D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1CF0F591E8D752F00122D79 /* Main.storyboard in Resources */,
+				B1CF0F521E8D74D900122D79 /* Assets.xcassets in Resources */,
+				B1CF0F581E8D752F00122D79 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1CF0F271E8D639300122D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B174BB861E950B9B00280C6D /* KHCharactersTextCollectionViewCell.m in Sources */,
+				B174BB831E95099500280C6D /* KHCharacterCollectionViewDataSource.m in Sources */,
+				B174BB6F1E94D9A800280C6D /* KHCharacter+JSON.m in Sources */,
+				B1CF0F711E8E0F3E00122D79 /* KHCharacter.m in Sources */,
+				B174BB781E94E6CD00280C6D /* KHTransport.m in Sources */,
+				B174BB721E94E40600280C6D /* KHCommonListTableViewCell+Marvel.m in Sources */,
+				B1CF0F5C1E8D755D00122D79 /* AppDelegate.m in Sources */,
+				B174BB5D1E943B1000280C6D /* KHParentViewController.m in Sources */,
+				B174BB751E94E5E200280C6D /* KHImageService.m in Sources */,
+				B174BB6C1E94B08900280C6D /* KHMeta.m in Sources */,
+				B1CF0F7C1E8E23EC00122D79 /* NSString+MD5.m in Sources */,
+				B174BB8F1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.m in Sources */,
+				B174BB7C1E94FCF100280C6D /* KHCharacterViewController.m in Sources */,
+				B1CF0F6A1E8D87B400122D79 /* KHMarvelTransport.m in Sources */,
+				B174BB8C1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.m in Sources */,
+				B1CF0F661E8D811500122D79 /* KHDataService.m in Sources */,
+				B174BB651E944F3200280C6D /* KHParentParser.m in Sources */,
+				B174BB801E95090F00280C6D /* KHCharacterCollectionViewCell.m in Sources */,
+				B1CF0F6D1E8E0C3800122D79 /* KHCommonListTableViewDataSource.m in Sources */,
+				B1CF0F4F1E8D70C800122D79 /* KHCommonListTableViewCell.m in Sources */,
+				B1CF0F771E8E14B300122D79 /* KHDataConfigurator.m in Sources */,
+				B174BB611E94483300280C6D /* KHMarvelParser.m in Sources */,
+				B174BB691E94AF1600280C6D /* main.m in Sources */,
+				B1CF0F4A1E8D6DCB00122D79 /* KHCommonListViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B1CF0F541E8D752F00122D79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1CF0F551E8D752F00122D79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B1CF0F561E8D752F00122D79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1CF0F571E8D752F00122D79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1CF0F401E8D639300122D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B1CF0F411E8D639300122D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1CF0F431E8D639300122D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = QA532HWZAE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TwoScreensApp/SupportingFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/TwoScreensApp/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KH.TwoScreensApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1CF0F441E8D639300122D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				DEVELOPMENT_TEAM = QA532HWZAE;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = TwoScreensApp/SupportingFiles/PrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/TwoScreensApp/SupportingFiles/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = KH.TwoScreensApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1CF0F261E8D639300122D79 /* Build configuration list for PBXProject "TwoScreensApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CF0F401E8D639300122D79 /* Debug */,
+				B1CF0F411E8D639300122D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1CF0F421E8D639300122D79 /* Build configuration list for PBXNativeTarget "TwoScreensApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1CF0F431E8D639300122D79 /* Debug */,
+				B1CF0F441E8D639300122D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B1CF0F231E8D639300122D79 /* Project object */;
+}
