@@ -64,12 +64,12 @@
 		B174BB821E95099500280C6D /* KHCharacterCollectionViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCharacterCollectionViewDataSource.m; sourceTree = "<group>"; };
 		B174BB841E950B9B00280C6D /* KHCharactersTextCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCharactersTextCollectionViewCell.h; sourceTree = "<group>"; };
 		B174BB851E950B9B00280C6D /* KHCharactersTextCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCharactersTextCollectionViewCell.m; sourceTree = "<group>"; };
-		B174BB881E950FB200280C6D /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = ../SupportingFiles/Defines.h; sourceTree = "<group>"; };
 		B174BB891E950FF000280C6D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = TwoScreensApp/SupportingFiles/PrefixHeader.pch; sourceTree = SOURCE_ROOT; };
 		B174BB8A1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KHCharactersTextCollectionViewCell+Character.h"; sourceTree = "<group>"; };
 		B174BB8B1E95129400280C6D /* KHCharactersTextCollectionViewCell+Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KHCharactersTextCollectionViewCell+Character.m"; sourceTree = "<group>"; };
 		B174BB8D1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "KHCharacterCollectionViewCell+Character.h"; sourceTree = "<group>"; };
 		B174BB8E1E95145A00280C6D /* KHCharacterCollectionViewCell+Character.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "KHCharacterCollectionViewCell+Character.m"; sourceTree = "<group>"; };
+		B1CD37891E95EF8600B444D3 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Defines.h; path = SupportingFiles/Defines.h; sourceTree = "<group>"; };
 		B1CF0F2B1E8D639300122D79 /* TwoScreensApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwoScreensApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CF0F481E8D6DCB00122D79 /* KHCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KHCommonListViewController.h; sourceTree = "<group>"; };
 		B1CF0F491E8D6DCB00122D79 /* KHCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KHCommonListViewController.m; sourceTree = "<group>"; };
@@ -171,6 +171,7 @@
 		B1CF0F2D1E8D639300122D79 /* TwoScreensApp */ = {
 			isa = PBXGroup;
 			children = (
+				B1CD37891E95EF8600B444D3 /* Defines.h */,
 				B1CF0F5D1E8D759400122D79 /* Supporting Files */,
 				B1CF0F531E8D74FB00122D79 /* Storyboards */,
 				B1CF0F501E8D74C700122D79 /* Resources */,
@@ -245,7 +246,6 @@
 		B1CF0F5D1E8D759400122D79 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				B174BB881E950FB200280C6D /* Defines.h */,
 				B174BB661E94AF1600280C6D /* Info.plist */,
 				B174BB671E94AF1600280C6D /* main.m */,
 				B174BB891E950FF000280C6D /* PrefixHeader.pch */,
